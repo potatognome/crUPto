@@ -1,0 +1,88 @@
+{
+    "INFO": {
+        "PROJECT_NAME"        : "crUPto",
+        "PROJECT_FOLDER"      : "/Applications/crUPto/",
+        "PROJECT_DESCRIPTION" : "Cryptocurrency portfolio tracking and tax reporting utility with multi-wallet support and automated PDF extraction",
+        "AUTHOR"              : "Daniel Austin <the.potato.gnome@gmail.com>",
+        "VERSION"             : "0.9.0",
+        "LICENSE_TYPE"        : "MIT",
+        "BUILD_TYPE"          : "Retrofit",
+        "MAIN_ENTRY_POINT"    : "crUPto.py"
+    },
+
+    "ROOTS": {
+        "WORKSPACE"           : ".",
+        "PROJECT"             : "./Applications/crUPto"
+    },
+
+    "ROOT_MODES": {
+        "ROOT_MODES: project": "Paths are relative to the project root.",
+        "ROOT_MODES: workspace": "Paths are relative to the workspace root.",
+        "LOGS"                : "workspace",
+        "TEST_LOGS"           : "workspace",
+        "CONFIG"              : "workspace",
+        "TEST_CONFIG"         : "workspace",
+        "INPUTS"              : "workspace",
+        "OUTPUTS"             : "workspace",
+        "INPUT_DATA"          : "workspace",
+        "OUTPUT_DATA"         : "workspace",
+        "INPUT_HISTORICAL"    : "workspace"
+    },
+
+    "PATHS": {
+        "LOGS"                : ".logs/crUPto/",
+        "TEST_LOGS"           : ".tests_logs/crUPto/",
+        "CONFIG"              : ".projects_config/",
+        "TEST_CONFIG"         : ".tests_config/",
+        "INPUTS"              : ".projects_data/inputData/crUPto/",
+        "OUTPUTS"             : ".projects_data/outputData/crUPto/",
+        "INPUT_DATA"          : ".projects_data/inputData/crUPto/Daniel/",
+        "OUTPUT_DATA"         : ".projects_data/outputData/crUPto/Daniel/",
+        "INPUT_HISTORICAL"    : ".projects_data/inputData/crUPto/historical/"
+    },
+
+
+    "SHARED_CONFIG": {
+        "ENABLED"                 : true,
+        "PATH"                    : "GLOBAL_SHARED.d/",
+        "FILES"                   : {
+            "COLOURS"             : "COLOURS.json",
+            "BORDER_PATTERNS"     : "BORDER_PATTERNS.json",
+            "TESTS_OPTIONS"       : "TESTS_OPTIONS.json",
+            "TIME_STAMP_OPTIONS"  : "TIME_STAMP_OPTIONS.json"
+        }
+    },
+
+    "ALT_CONFIG": {
+        "ENABLED"                 : false,
+        "PATH"                    : "",
+        "FILES"                   : {
+            "COLOURS"             : "",
+            "BORDER_PATTERNS"     : "",
+            "TESTS_OPTIONS"       : "",
+            "TIME_STAMP_OPTIONS"  : ""
+        }
+    },
+
+    "LOG_FILES": {
+        "MASTER"            : "crUPto_MASTER.log",
+        "ERROR"             : "crUPto_ERROR.log",
+        "FS"                : "crUPto_FS.log",
+        "INIT"              : "crUPto_INIT.log",
+        "RUNTIME"           : "crUPto_RUNTIME.log",
+        "WARNING"           : "crUPto_WARNING.log",
+        "DATABASE"          : "crUPto_DATABASE.log",
+        "DEBUG"             : "crUPto_DEBUG.log"
+    },
+
+    "LOG_CATEGORIES": {
+        "default"           : ["MASTER", "SESSION"],
+        "error"             : ["MASTER", "SESSION", "ERROR"],
+        "fs"                : ["MASTER", "SESSION", "FS"],
+        "init"              : ["INIT", "SESSION", "MASTER"],
+        "debug"             : ["DEBUG", "SESSION"],
+        "warning"           : ["WARNING", "SESSION", "MASTER"],
+        "database"          : ["DATABASE", "SESSION", "MASTER"],
+        "all"               : ["MASTER", "SESSION", "ERROR", "FS", "INIT", "DEBUG", "WARNING", "DATABASE"]
+    }
+}

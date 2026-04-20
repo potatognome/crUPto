@@ -1,0 +1,42 @@
+# utilsbase_py\dict\DICT_COLOURS.py
+
+# Set up dictionary for RGB Colour Ansi Sequence
+RGB = {
+# BRIGHTS
+    'RED'           :'255;0;0m',
+    'ORANGE'        :'255;125;0m',
+    'YELLOW'        :'255;255;0m',
+    'GREEN'         :'0;255;0m',
+    'BLUE'          :'0;0;255m',
+    'INDIGO'        :'125;0;255m',
+    'VIOLET'        :'255;0;255m',
+# LIGHTS
+    'PINK'          :'255;135;170m',
+    'TANGERINE'     :'255;150;10m',
+    'CANARY'        :'255;255;65m',
+    'LIME'          :'135;255;5m',
+    'CORNFLOWER'    :'105;120;255m',
+    'LAVENDER'      :'200;120;255m',
+    'ROSE'          :'220;100;120m',
+# DARKS
+    'DARK RED'      :'135;0;0m',
+    'DARK ORANGE'   :'135;60;0m',
+    'DARK YELLOW'   :'135;135;0m',
+    'DARK GREEN'    :'0;135;0m',
+    'NAVY'          :'0;0;135m',
+    'EGGPLANT'      :'65;0;135m',
+    'MAROON'        :'135;0;90m',
+# BROWNS
+    'MAHOGANY'      :'60;25;5m',
+    'BROWN'         :'120;50;10m',
+    'CHESTNUT'      :'130;40;0m',
+    'TAN'           :'210;180;110m',
+    'SAND'          :'225;200;115m',
+# SHADES
+    'BLACK'         :'0;0;0m',
+    'CHARCOAL'      :'65;65;65m',
+    'GREY'          :'125;125;125m',
+    'LIGHT GREY'    :'190;190;190m',
+    'WHITE'         :'255;255;255m',
+}
+

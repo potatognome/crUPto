@@ -1,0 +1,19 @@
+{
+    "COLUMN_MAPPING": {
+        "Units_Sent"            : ["Sent Quantity", "Amount Debited"],
+        "Currency_Sent"         : ["Sent Currency", "Asset Debited"],
+        "Units_Received"        : ["Amount Credited", "Received Quantity"],
+        "Currency_Received"     : ["Received Currency", "Asset Credited"],
+        "Market_Value"          : ["Market Value"],
+        "Market_Value_Currency" : ["Market Value Currency"],
+        "Book_Cost"             : ["Book Cost"],
+        "Book_Cost_Currency"    : ["Book Cost Currency"],
+        "Action"                : ["Type", "Transaction Type"],
+        "Description"           : ["Tag", "Note"],
+        "Date"                  : ["Date", "Transaction Date", "Timestamp"]
+    },
+    "REMOVE_COLUMNS": [
+        "Fee Amount",
+        "Fee Currency"
+    ]
+}

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crUPto"
+version = "0.9.0"
+description = "Cryptocurrency portfolio tracking and tax reporting utility with multi-wallet support and automated PDF extraction"
+readme = "README.md"
+requires-python = ">=3.7"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Daniel Austin <the.potato.gnome@gmail.com>" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+
+]
+
+[project.scripts]
+crUPto = "crUPto.main:main"
+
+
