@@ -75,7 +75,10 @@
         "RUNTIME": "crUPto_RUNTIME.log",
         "WARNING": "crUPto_WARNING.log",
         "DATABASE": "crUPto_DATABASE.log",
-        "DEBUG": "crUPto_DEBUG.log"
+        "DEBUG": "crUPto_DEBUG.log",
+        "SESSION": "crUPto_SESSION.log",
+        "TRY": "crUPto_TRY.log",
+        "CONFIG_READ": "crUPto_CONFIG_READ.log"
     },
     "LOG_CATEGORIES": {
         "default": [
