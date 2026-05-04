@@ -1,3 +1,9 @@
+## [0.9.10] - 2026-05-02
+
+### Changed
+- Patch release for approved workspace maintenance updates.
+- Version metadata alignment and release documentation refresh.
+
 ## [0.9.0] - 2026-04-19
 - Workspace migration to Core/SuiteTools/Applications layout.
 - Path normalization for portable multi-device use (no machine-specific absolute roots).

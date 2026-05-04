@@ -1,0 +1,12 @@
+{
+  "tuilkit_config_file": "C:\\Repository\\Daniel\\dev_local\\Core\\tUilKit\\config\\tUilKit_CONFIG.json",
+  "project_name": "crUPto",
+  "config_file": "C:\\Repository\\Daniel\\dev_local\\Applications\\crUPto\\config\\crUPto_CONFIG.json",
+  "project_root": "C:\\Repository\\Daniel\\dev_local\\Applications\\crUPto",
+  "workspace_root": "C:\\Repository\\Daniel\\dev_local",
+  "config_folder": "C:\\Repository\\Daniel\\dev_local\\.projects_config",
+  "test_logs_folder": "C:\\Repository\\Daniel\\dev_local\\.tests_logs\\crUPto",
+  "logs_folder": "C:\\Repository\\Daniel\\dev_local\\.logs\\crUPto",
+  "tests_inputs_folder": "C:\\Repository\\Daniel\\dev_local\\.tests_data",
+  "tests_outputs_folder": "C:\\Repository\\Daniel\\dev_local\\.tests_data\\output"
+}

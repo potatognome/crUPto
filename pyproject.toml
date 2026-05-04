@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "crUPto"
-version = "0.9.9"
+version = "0.9.10"
 description = "Cryptocurrency portfolio tracking and tax reporting utility with multi-wallet support and automated PDF extraction"
 readme = "README.md"
 requires-python = ">=3.7"

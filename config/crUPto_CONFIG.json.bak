@@ -124,5 +124,8 @@
             "WARNING",
             "DATABASE"
         ]
+    },
+    "SECONDARY": {
+        "FILE": "crUPto_SECONDARY.json"
     }
 }
