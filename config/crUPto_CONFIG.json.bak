@@ -7,45 +7,41 @@
         "VERSION": "0.9.0",
         "LICENSE_TYPE": "MIT",
         "BUILD_TYPE": "Retrofit",
-        "MAIN_ENTRY_POINT": "crUPto.py"
+        "MAIN_ENTRY_POINT": "crUPto.py",
+        "COLOUR_FSTR": "!project",
+        "LICENSE": "$PROJECT_LICENSE"
     },
     "ROOTS": {
-        "WORKSPACE": ".",
-        "PROJECT": "./Applications/crUPto"
+        "WORKSPACE": "C:/Repository/Daniel/dev_local",
+        "PROJECT": "C:/Repository/Daniel/dev_local/Applications/crUPto"
     },
     "ROOT_MODES": {
         "ROOT_MODES: project": "Paths are relative to the project root.",
         "ROOT_MODES: workspace": "Paths are relative to the workspace root.",
-        "LOGS": "workspace",
         "TEST_LOGS": "workspace",
-        "CONFIG": "workspace",
         "TEST_CONFIG": "workspace",
+        "INPUT_HISTORICAL": "workspace",
+        "CONFIG": "workspace",
+        "LOGS": "workspace",
         "INPUTS": "workspace",
         "OUTPUTS": "workspace",
-        "INPUT_DATA": "workspace",
-        "OUTPUT_DATA": "workspace",
-        "INPUT_HISTORICAL": "workspace",
-        "LOG_PATHS": "workspace",
-        "TESTS_LOGS": "workspace",
         "TESTS_CONFIG": "project",
-        "TESTS_INPUTS": "workspace",
-        "TESTS_OUTPUTS": "workspace"
+        "TESTS_LOGS": "project",
+        "TESTS_INPUTS": "project",
+        "TESTS_OUTPUTS": "project"
     },
     "PATHS": {
-        "LOGS": ".logs/crUPto/",
         "TEST_LOGS": ".tests_logs/crUPto/",
-        "CONFIG": ".projects_config/",
         "TEST_CONFIG": ".tests_config/",
-        "INPUTS": ".projects_data/inputData/crUPto/",
-        "OUTPUTS": ".projects_data/outputData/crUPto/",
-        "INPUT_DATA": ".projects_data/inputData/crUPto/Daniel/",
-        "OUTPUT_DATA": ".projects_data/outputData/crUPto/Daniel/",
         "INPUT_HISTORICAL": ".projects_data/inputData/crUPto/historical/",
-        "LOG_PATHS": ".logs/crUPto/",
-        "TESTS_LOGS": ".tests_logs/crUPto/",
-        "TESTS_CONFIG": ".tests_config/",
-        "TESTS_INPUTS": ".tests_data/",
-        "TESTS_OUTPUTS": ".tests_data/output/"
+        "CONFIG": ".projects_config/",
+        "LOGS": ".logs/crUPto/",
+        "INPUTS": ".projects_data/inputData//crUPto/",
+        "OUTPUTS": ".projects_data/outputData//crUPto/",
+        "TESTS_CONFIG": "tests/.config/",
+        "TESTS_LOGS": "tests/.logs/",
+        "TESTS_INPUTS": "tests/.inputData/",
+        "TESTS_OUTPUTS": "tests/.outputData/"
     },
     "SHARED_CONFIG": {
         "ENABLED": true,
@@ -67,39 +63,23 @@
             "TIME_STAMP_OPTIONS": ""
         }
     },
+    "SECONDARY": {
+        "FILE": "crUPto_SECONDARY.json"
+    },
     "LOG_FILES": {
-        "MASTER": "crUPto_MASTER.log",
-        "ERROR": "crUPto_ERROR.log",
-        "FS": "crUPto_FS.log",
-        "INIT": "crUPto_INIT.log",
-        "RUNTIME": "crUPto_RUNTIME.log",
         "WARNING": "crUPto_WARNING.log",
         "DATABASE": "crUPto_DATABASE.log",
         "DEBUG": "crUPto_DEBUG.log",
+        "MASTER": "crUPto_MASTER.log",
         "SESSION": "crUPto_SESSION.log",
+        "RUNTIME": "crUPto_RUNTIME.log",
         "TRY": "crUPto_TRY.log",
-        "CONFIG_READ": "crUPto_CONFIG_READ.log"
+        "INIT": "crUPto_INIT.log",
+        "FS": "crUPto_FS.log",
+        "CONFIG_READ": "crUPto_CONFIG_READ.log",
+        "ERROR": "crUPto_ERROR.log"
     },
     "LOG_CATEGORIES": {
-        "default": [
-            "MASTER",
-            "SESSION"
-        ],
-        "error": [
-            "MASTER",
-            "SESSION",
-            "ERROR"
-        ],
-        "fs": [
-            "MASTER",
-            "SESSION",
-            "FS"
-        ],
-        "init": [
-            "INIT",
-            "SESSION",
-            "MASTER"
-        ],
         "debug": [
             "DEBUG",
             "SESSION"
@@ -114,18 +94,49 @@
             "SESSION",
             "MASTER"
         ],
+        "default": [
+            "MASTER",
+            "SESSION"
+        ],
+        "runtime": [
+            "MASTER",
+            "SESSION",
+            "RUNTIME"
+        ],
+        "error": [
+            "MASTER",
+            "SESSION",
+            "ERROR"
+        ],
+        "init": [
+            "MASTER",
+            "SESSION",
+            "INIT"
+        ],
+        "fs": [
+            "MASTER",
+            "SESSION",
+            "FS"
+        ],
+        "config_read": [
+            "MASTER",
+            "SESSION",
+            "CONFIG_READ"
+        ],
+        "try": [
+            "MASTER",
+            "SESSION",
+            "TRY"
+        ],
         "all": [
             "MASTER",
             "SESSION",
-            "ERROR",
-            "FS",
+            "RUNTIME",
+            "TRY",
             "INIT",
-            "DEBUG",
-            "WARNING",
-            "DATABASE"
+            "FS",
+            "CONFIG_READ",
+            "ERROR"
         ]
-    },
-    "SECONDARY": {
-        "FILE": "crUPto_SECONDARY.json"
     }
 }
